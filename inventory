@@ -1,3 +1,11 @@
-[remote_servers]
-192.168.56.118	
+[web_servers]
+192.168.56.122			
 192.168.56.112
+192.168.56.114	ansible_python_interpreter=/usr/bin/python2
+
+[file_servers]
+192.168.56.120
+
+[db_servers]
+192.168.56.114	ansible_python_interpreter=/usr/bin/python2
+192.168.56.122
